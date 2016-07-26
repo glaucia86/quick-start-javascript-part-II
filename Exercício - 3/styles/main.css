@@ -1,0 +1,66 @@
+/*----------- Main Styles -----*/
+body {
+     background: #222;
+     color: #eaeaea;
+     padding: 0 16px;
+     font: 100% "Open Sans", Helvetica, Arial, sans-serif;
+}            
+h1 {
+     font-size: 1.5em; 
+}
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 800px;
+    min-width: 300px;
+}
+em {
+    color: #ea6f05;
+}
+
+/*------- Styles for Hint -------*/
+.hover-hint p {
+    border: 1px solid #ea6f05 ;
+    font-size: 0.8em;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase; 
+    width: 150px;
+}
+.hover-hint .hint {
+    visibility: hidden;
+    opacity: 0;
+    -moz-transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+    transition: visibility 1s, opacity 1s;
+}
+.hover-hint:hover p {
+    outline: 1px solid #eb8e3e;
+}
+.hover-hint:hover .hint {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover-hint pre {
+    min-width: 200px;
+    max-width: 400px;
+    
+}
+/*---- Syntax Colors -----*/
+.orange {
+    color: #ffa500;
+}
+.blue {
+    color: #227cbe;
+}
+.light-blue {
+    color: #8bc0e6;
+}
+.dark-orange {
+    color: #b75107;   
+}
+.green {
+  color: #61af12;
+}

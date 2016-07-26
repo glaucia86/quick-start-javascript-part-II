@@ -1,4 +1,4 @@
-var time = prompt("Qual é o mascote do seu time?").toLowerCase();
+var time = prompt("Qual é o mascote do seu time?");
 
 switch(time) {
   case "Palmeiras" :
