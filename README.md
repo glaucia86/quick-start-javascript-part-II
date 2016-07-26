@@ -8,7 +8,7 @@ Exercícios realizados durante o estudo com os códigos de cada nível.
 
 ##### 3) [Laço For] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%203)
 
-##### 4) [Revisando o FizzBuzz] ()
+##### 4) [Revisando o FizzBuzz] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%204)
 
 ##### 5) [Laço While] ()
 
