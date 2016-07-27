@@ -1,0 +1,152 @@
+/*----------- Main Styles -----*/
+body {
+     background: #292929;
+     color: #eaeaea;
+     padding: 0 16px;
+     font: 100% "Open Sans", Helvetica, Arial, sans-serif;
+}            
+h1 {
+     font-size: 1.5em; 
+}
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+em {
+    color: #ea6f05;
+}
+
+.clear {
+  clear: both; 
+}
+/*------- Styles for Hint -------*/
+.hover-hint p {
+    border: 1px solid #ea6f05 ;
+    font-size: 0.8em;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase; 
+    width: 150px;
+}
+.hover-hint .hint {
+    visibility: hidden;
+    opacity: 0;
+    -moz-transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+    transition: visibility 1s, opacity 1s;
+}
+.hover-hint:hover p {
+    outline: 1px solid #eb8e3e;
+}
+.hover-hint:hover .hint {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*---- Syntax Colors -----*/
+.orange {
+    color: #ffa500;
+}
+.blue {
+    color: #227cbe;
+}
+.light-blue {
+    color: #8bc0e6;
+}
+.dark-orange {
+    color: #b75107;   
+}
+.green {
+  color: #61af12;
+}
+/*----------Friends!--------*/
+
+.friend {
+  margin: 60px;
+  width: 20px;
+  height: 40px;
+}
+  .head {
+    background-color: #f0f2bf;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -15px;
+    left: 2.5px;
+  }
+
+  .armR {
+    background-color: #f0f2bf;
+    width: 20px;
+    height: 5px;
+    position: relative;
+    left: 12px;
+    top: -10px;
+    z-index: -1;
+  }
+
+  .armL {
+    background-color: #f0f2bf;
+    width: 17px;
+    height: 5px;
+    position: relative;
+    left: -12px;
+    top: -15px;
+    z-index: -1;
+  }
+
+  .legR {
+    background-color: #f0f2bf;
+    width: 25px;
+    height: 5px;
+    position: relative;
+    top: 11px;
+    left: 3px;
+    transform:rotate(80deg);
+    z-index: -1;
+  }
+
+.legL {
+    background-color: #f0f2bf;
+    width: 25px;
+    height: 5px;
+    position: relative;
+    top: 6px;
+    left: -7px;
+    transform:rotate(-80deg);
+    z-index: -1;
+  }
+
+.mark {
+  background: #0a0a33; 
+  float: left;
+}
+
+.lisa {
+  background: #88111f;
+  float: left;
+}
+
+.denny {
+  background: #38883e;
+  float: left;
+}
+
+.friend p {
+  margin-left: -10px; 
+}
+.peter {
+  background-color: #804f00;
+  float: left;
+}
+
+.steven {
+  background-color: #0093ff;
+  float: left;
+}
+
+.claudette {
+  background-color: #800071;
+  float: left;
+}

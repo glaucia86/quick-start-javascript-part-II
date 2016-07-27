@@ -16,9 +16,9 @@ Exercícios realizados durante o estudo com os códigos de cada nível.
 
 ##### 7) [Exercícios Adicinais com Funções] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%207)
 
-##### 8) [Arrays] ()
+##### 8) [Arrays] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%208)
 
-##### 9) [Caindo dentro nos Arrays] ()
+##### 9) [Percorrendo os Arrays] ()
 
 ##### 10) [Criando um Arquivo em JavaScript desde o zero] ()
 
