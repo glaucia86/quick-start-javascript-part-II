@@ -1,0 +1,109 @@
+/*----------- Main Styles -----*/
+body {
+     background: #292929;
+     color: #eaeaea;
+     padding: 30px;
+     font: 100% "Open Sans", Helvetica, Arial, sans-serif;
+} 
+main {
+  margin: 0 auto; 
+  max-width: 600px;
+  padding: 30px;
+}
+h1 {
+     font-size: 1.5em; 
+}
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+em {
+    color: #ea6f05;
+}
+
+a {
+  color: #ea6f05; 
+}
+
+  a:hover {
+   color: #f7c261; 
+  }
+
+td {
+  max-width: 400px; 
+  padding: 20px;
+}
+
+tr:nth-child(odd){
+  background-color: #343333; 
+}
+
+/*------- Styles for Hint -------*/
+.hover-hint p {
+    border: 1px solid #ea6f05 ;
+    font-size: 0.8em;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase; 
+    width: 150px;
+}
+.hover-hint .hint {
+    visibility: hidden;
+    opacity: 0;
+    -moz-transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+    transition: visibility 1s, opacity 1s;
+}
+.hover-hint:hover p {
+    outline: 1px solid #eb8e3e;
+}
+.hover-hint:hover .hint {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*---- Syntax Colors -----*/
+.orange {
+    color: #ffa500;
+}
+.blue {
+    color: #227cbe;
+}
+.light-blue {
+    color: #8bc0e6;
+}
+.dark-orange {
+    color: #b75107;   
+}
+.green {
+  color: #61af12;
+}
+
+/*------ Building (with some imagination) ------*/
+.building {
+  width: 60px;
+  height: 150px;
+  background: #363636;
+  box-shadow: 7px -7px #222;
+  margin: 0 auto 20px auto;
+}
+
+.windowL {
+  background-color: #88bfc1;
+  width: 10px;
+  height: 15px;
+  margin: 10px 10px 0 13px;
+  position: relative;
+  top: 10px;
+}
+
+.windowR {
+  background: #6a77be;
+  width: 10px;
+  height: 15px;
+  margin: 10px 10px 0 10px;
+  position: relative;
+  top: -115px;
+  right: -27px;
+}
