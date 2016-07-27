@@ -20,6 +20,4 @@ Exercícios realizados durante o estudo com os códigos de cada nível.
 
 ##### 9) [Percorrendo os Arrays] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%209)
 
-##### 10) [Criando um Arquivo em JavaScript desde o zero] ()
-
-##### 11) [Planeje e então.... Crie!] ()
+##### 10) [Criando um Arquivo em JavaScript desde o zero - Desenvolvimento do Jogo Zumbi] (https://github.com/glaucia86/quick-start-javascript-part-II/tree/master/Exerc%C3%ADcio%20-%2010)
